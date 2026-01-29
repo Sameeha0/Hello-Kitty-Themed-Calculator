@@ -1,9 +1,14 @@
-# 🎀 Kawaii Hello Kitty Calculator
+# 🎀 Hello-Kitty-Themed-Calculator
 
 > A super cute, scientific calculator inspired by Hello Kitty aesthetics! Built with pure HTML, CSS, and JavaScript. 🐱💗
 
+### 🔗 [Click here to use the Calculator!](https://sameeha0.github.io/Hello-Kitty-Themed-Calculator/)
+
 ![Kawaii Aesthetic](https://img.shields.io/badge/Aesthetic-Kawaii-pink)
 ![License](https://img.shields.io/badge/License-MIT-blue)
+![GitHub stars](https://img.shields.io/github/stars/Sameeha0/Hello-Kitty-Themed-Calculator?style=social)
+
+---
 
 ## ✨ Features
 
