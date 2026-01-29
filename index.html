@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kawaii Calculator 🎀</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Importing cute fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;600;800&family=Quicksand:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🎀</text></svg>">
+</head>
+<body>
+
+    <!-- Floating Background Elements -->
+    <div class="background-decor">
+        <div class="heart">💗</div>
+        <div class="heart">🎀</div>
+        <div class="heart">✨</div>
+        <div class="heart">🌸</div>
+        <div class="heart">💗</div>
+        <div class="heart">✨</div>
+    </div>
+
+    <div class="main-container">
+        <!-- History Sidebar -->
+        <div id="history-sidebar" class="history-sidebar">
+            <div class="history-header">
+                <h3>History 🎀</h3>
+                <button id="close-history" class="close-btn">×</button>
+            </div>
+            <div id="history-list" class="history-list">
+                <!-- History items will appear here -->
+                <div class="history-placeholder">No calculations yet 🐱</div>
+            </div>
+            <button id="clear-history" class="clear-history-btn">Clear History</button>
+        </div>
+
+        <!-- Theme Toggle & History Toggle -->
+        <div class="top-controls">
+            <button id="history-toggle" class="control-btn" aria-label="View History">
+                <span class="toggle-icon">📜</span>
+            </button>
+            <button id="theme-toggle" class="control-btn" aria-label="Toggle Theme">
+                <span class="toggle-icon">🌙</span>
+            </button>
+        </div>
+
+        <div class="calculator-body">
+            <!-- Kawaii Cat Ears -->
+            <div class="cat-ears">
+                <div class="ear left"></div>
+                <div class="ear right"></div>
+            </div>
+
+            <!-- The Bow -->
+            <div class="bow-container">
+                <div class="bow-left"></div>
+                <div class="bow-center"></div>
+                <div class="bow-right"></div>
+            </div>
+
+            <!-- Calculator Screen -->
+            <div class="display-container">
+                <div class="display-history" id="display-secondary"></div>
+                <div class="display-main" id="display">0</div>
+            </div>
+
+            <!-- Cat Face Details (Decoration) -->
+            <div class="cat-face">
+                <div class="eye left"></div>
+                <div class="eye right"></div>
+                <div class="nose"></div>
+                <div class="whisker-container left">
+                    <div class="whisker"></div>
+                    <div class="whisker"></div>
+                </div>
+                <div class="whisker-container right">
+                    <div class="whisker"></div>
+                    <div class="whisker"></div>
+                </div>
+            </div>
+
+            <!-- Buttons Grid -->
+            <div class="buttons-grid">
+                <!-- Row 1: Scientific -->
+                <button class="btn sci" data-action="sin">sin</button>
+                <button class="btn sci" data-action="cos">cos</button>
+                <button class="btn sci" data-action="tan">tan</button>
+                <button class="btn sci" data-action="sqrt">√</button>
+                <button class="btn sci" data-action="pow">xʸ</button>
+
+                <!-- Row 2 -->
+                <button class="btn sci" data-action="log">log</button>
+                <button class="btn sci" data-action="pi">π</button>
+                <button class="btn func" data-action="clear">C</button>
+                <button class="btn func" data-action="delete">⌫</button>
+                <button class="btn operator" data-action="/">÷</button>
+
+                <!-- Row 3 -->
+                <button class="btn sci" data-action="exp">e</button>
+                <button class="btn num" data-num="7">7</button>
+                <button class="btn num" data-num="8">8</button>
+                <button class="btn num" data-num="9">9</button>
+                <button class="btn operator" data-action="*">×</button>
+
+                <!-- Row 4 -->
+                <button class="btn sci" data-action="(">(</button>
+                <button class="btn num" data-num="4">4</button>
+                <button class="btn num" data-num="5">5</button>
+                <button class="btn num" data-num="6">6</button>
+                <button class="btn operator" data-action="-">−</button>
+
+                <!-- Row 5 -->
+                <button class="btn sci" data-action=")">)</button>
+                <button class="btn num" data-num="1">1</button>
+                <button class="btn num" data-num="2">2</button>
+                <button class="btn num" data-num="3">3</button>
+                <button class="btn operator" data-action="+">+</button>
+
+                <!-- Row 6 -->
+                <button class="btn sci" data-action="square">x²</button>
+                <button class="btn num zero" data-num="0">0</button>
+                <button class="btn num" data-num=".">.</button>
+                <button class="btn equals" data-action="=">=</button>
+            </div>
+        </div>
+
+        <footer>
+            Made with 💕 by Sameeha
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
