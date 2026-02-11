@@ -1,6 +1,6 @@
 # 🎀 Hello-Kitty-Themed-Calculator
 
-> A super cute, scientific calculator inspired by Hello Kitty aesthetics! Built with pure HTML, CSS, and JavaScript. 🐱💗
+> A super cute, scientific calculator inspired by Hello Kitty aesthetics! Built with pure HTML, CSS, and JavaScript. 
 
 ### 🔗 [Click here to use the Calculator!](https://sameeha0.github.io/Hello-Kitty-Themed-Calculator/)
 
@@ -11,13 +11,13 @@
 
 ## Features
 
-- **Scientific Mode**: Fully functional scientific calculator including Trigonometry (sin, cos, tan), Logarithms, Square Roots, Powers, and Pi (π). 📐
+- **Scientific Mode**: Fully functional scientific calculator including Trigonometry (sin, cos, tan), Logarithms, Square Roots, Powers, and Pi (π). 
 - **Natural Expression Input**: Write equations just like you see them in textbooks (e.g., `sin(30) + √25`).
 - **Implicit Multiplication**: Smartly understands that `2sin(30)` means `2 × sin(30)`. 
-- **Calculation History**: Slide-out sidebar with smooth mobile scrolling. Clear history and close (×) buttons work reliably. Click any history item to reuse the result. 📜
+- **Calculation History**: Slide-out sidebar with smooth mobile scrolling. Clear history and close (×) buttons work reliably. Click any history item to reuse the result. 
 - **Kawaii Design**: Pastel pink/white palette, rounded shapes, and soft shadows.
 - **Cute Animations**: Floating hearts background, bouncy buttons, and a wiggling bow! 🎀
-- **Dark Mode**: Switch between **Classic Pink** and **Dark Chic** modes. Display text colors adapt (dark pink in light theme, light pink in dark theme). 🌙
+- **Dark Mode**: Switch between **Classic Pink** and **Dark Chic** modes. Display text colors adapt (dark pink in light theme, light pink in dark theme). 
 - **Cat Face UI**: Adorable minimal cat face with ears and whiskers. 🐱
 - **Responsive & Scroll-Friendly**: Desktop buttons sit fully visible above the calculator; on mobile, controls stay visible and avoid overlap while you scroll. 
 - **Error Handling**: Concise "Error" message with smaller font for invalid equations (e.g., `0/0`).
